@@ -27,8 +27,10 @@ class CampaignIndex extends Component {
         return (
             <Layout>
                 <div>
+                    <h3>Open Campaigns</h3>
+
+                    <Button floated="right" content="Create Campaign" icon="add circle" primary />
                     {this.renderCampaigns()}
-                    <Button content="Create Campaign" icon="add" primary />
                 </div>
             </Layout>
         )
